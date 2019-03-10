@@ -4,9 +4,11 @@
 
 ### Вариант 19
 
+![task](assets/task.png)
+
 Сборка и запуск:
 
 ```bash
 make
-./bin/math_expressions
+./bin/math_expressions 2
 ```
