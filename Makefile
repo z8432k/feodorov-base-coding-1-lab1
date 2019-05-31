@@ -1,5 +1,6 @@
+CC = g++
 PROGRAM = math_expressions
-CFLAGS = -Wall -g -ansi -O0
+CFLAGS = -Wall -Wextra -ggdb
 LDLIBS = -lm
 
 default: bin/$(PROGRAM)
@@ -7,7 +8,7 @@ default: bin/$(PROGRAM)
 bin/$(PROGRAM): bin/$(PROGRAM).o
 	$(CC) $^ $(LDLIBS) -o $@
 
-bin/$(PROGRAM).o: src/main.c
+bin/$(PROGRAM).o: src/main.cpp
 	$(CC) $(CFLAGS) -o $@ -c $<
 
 clean:

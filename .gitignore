@@ -1,3 +1,4 @@
 *.o
 tmp/
 bin/math_expressions
+.vscode/ipch/
