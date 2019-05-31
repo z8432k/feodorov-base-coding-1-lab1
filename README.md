@@ -10,5 +10,5 @@
 
 ```bash
 make
-./bin/math_expressions 2
+./bin/math_expressions
 ```
